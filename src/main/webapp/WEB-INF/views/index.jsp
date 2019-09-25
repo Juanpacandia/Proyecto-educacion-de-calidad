@@ -86,8 +86,57 @@
 				</nav>
 			</div>
 	</div>
-        
+        <!--//header -->
+        <!-- banner -->
+	<div class="main">
+		<div class="page_container">
+			<div id="immersive_slider">
+				  <div class="slide" data-blurred="">
+						<div class="col-md-6 image">
+							<img src="images/3a.jpg" alt="Slider 1" />
+						</div>
+						<div class="col-md-6 content">
+							<h3>Hosting <span>City</span></h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur velit ac fringilla fermentum. Nulla sodales, magna eget pharetra feugiat, tellus metus lacinia nunc, nec vulputate purus nisl nec tortor. Mauris sem diam, interdum a euismod vitae, viverra non sapien. </p>
+						</div>
+						<div class="clearfix"> </div>
+				  </div>
+				  <div class="slide" data-blurred="">
+						<div class="col-md-6 image">
+							<img src="images/1a.jpg" alt="Slider 1" />
+						</div>
+						<div class="col-md-6 content">
+							<h3>Personal <span>Hosting</span></h3>
+							<p>Donec sagittis, dui sed lobortis convallis, ante eros auctor leo, vel commodo lacus nisl vitae velit. Nulla facilisi. Integer vehicula porta urna, id lacinia nisl semper vel. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+						</div>
+						<div class="clearfix"> </div>
+				  </div>
+				  <div class="slide" data-blurred="">
+						<div class="col-md-6 image">
+							<img src="images/2a.jpg" alt="Slider 1" />
+						</div>
+						<div class="col-md-6 content">
+							<h3>Shared <span>Hosting</span></h3>
+							<p>Aliquam at efficitur odio, et commodo odio. Nulla est lectus, tristique sit amet lorem at, porttitor dapibus nisi. Quisque bibendum sem ut ex pharetra sagittis. Vestibulum eu sapien non purus interdum tempus. Aenean varius elit sit amet lorem ultrices, at iaculis velit sodales. </p>
+						</div>
+						<div class="clearfix"> </div>
+				  </div>
+				  
+				  <a href="#" class="is-prev">&laquo;</a>
+				  <a href="#" class="is-next">&raquo;</a>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready( function() {
+			$("#immersive_slider").immersive_slider({
+				  container: ".main"
+			});
+		});
 
+	</script>
+	<!-- //banner -->
+        
 <a href="/proyecto_AS/customer/list">Regresar</a>
 <a href="WEB-INF/views/hello">He vuelto</a>
 </body>
