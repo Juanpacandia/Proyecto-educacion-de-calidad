@@ -199,14 +199,7 @@
         return false
       });
     }
-   $(".is-next").click(function() {
-     el.moveNext();
-     return false;
-   });
-   $(".is-prev").click(function() {
-     el.movePrev();
-     return false;
-   });
+   
     
     $.fn.moveSlider = function(settings, page_index) {
       var el = $(this),
@@ -228,27 +221,6 @@
       $(settings.container).find(".is-bg-overflow").transformSlider(settings, pos);
     }
     
-    $.fn.moveNext = function() {
-      var el = $(this),
-        total = el.find(settings.slideSelector).length + 1,
-        page_index_number = parseInt($(this).find(".is-slide.active").attr("id").replace('slide_','')) + 1;
-      if(page_index_number < total) {
-        el.moveSlider(settings, "#slide_" + page_index_number)
-      } else {
-        if (settings.loop == true ) el.moveSlider(settings, "#slide_1")
-      }
-    }
-    
-    $.fn.movePrev = function() {
-      var el = $(this),
-        total = el.find(settings.slideSelector).length + 1,
-        page_index_number = parseInt($(this).find(".is-slide.active").attr("id").replace('slide_','')) - 1;
-      if(page_index_number <= total && page_index_number > 0) {
-        el.moveSlider(settings, "#slide_" + page_index_number)
-      }else {
-        if (settings.loop == true ) el.moveSlider(settings, "#slide_" + (total - 1 ))
-      }
-    }
     
     el.swipeEvents().bind("swipeRight",  function(){ 
       el.movePrev();

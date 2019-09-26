@@ -98,15 +98,15 @@ Class Definitions
   height: 100%;
 }
 div#slide_3_bg{
-	background:url(../images/2.jpg) no-repeat 0px 0px;
+	background:url(../images/fondoSlider3.jpg) no-repeat 0px 0px;
 	background-size:cover !important;
 }
 div#slide_2_bg{
-	background:url(../images/1.jpg) no-repeat 0px 0px;
+	background:url(../images/fondoSlider2.jpg) no-repeat 0px 0px;
 	background-size:cover !important;	
 }
 div#slide_1_bg{
-	background:url(../images/3.jpg) no-repeat 0px 0px;
+	background:url(../images/Slider1.jpg) no-repeat 0px 0px;
 	background-size:cover !important;
 }
 

@@ -68,6 +68,7 @@
 		</div>
 
 	</div>
+    <img src="../resources/imagenes/educacion.jpg" alt="prueba"/>
 </body>
 
 </html>

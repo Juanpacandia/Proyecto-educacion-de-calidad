@@ -1,3 +1,4 @@
+
 /*--A Design by W3layouts 
 Author: W3layout
 Author URL: http://w3layouts.com
@@ -117,7 +118,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 	-ms-transition: .5s ease-in;
 }
 .header {
-    background: #FFFFFF;
+    background: #F7EBB3;
 }
 .navbar-default {
     background: none;
@@ -151,7 +152,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     font-size: .6em;
     letter-spacing: 2px;
     text-align: right;
-    color: #86c724;
+    color: #B71919;
 }
 .navbar-nav {
     float: right;
@@ -169,7 +170,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     color: #fff;
-    background-color: #86c724;
+    background-color: #B71919;
 }
 .navbar-nav > li > a {
     font-size: 14px;
@@ -179,7 +180,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #fff;
-    background-color: #86c724;
+    background-color: #B71919;
 }
 /* Sweep To Bottom */
 .hvr-sweep-to-bottom {
@@ -205,7 +206,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
   left: 0;
   right: 0;
   bottom: 0;
-  background: #86c724;
+  background: #B71919;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
@@ -295,7 +296,7 @@ ul.dropdown-menu {
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
 	color: #fff;
     text-decoration: none;
-    background-color: #86c724 !important;
+    background-color: #B71919 !important;
     outline: 0;
 }
 /*-- //header --*/
@@ -381,7 +382,7 @@ ul.dropdown-menu {
     margin: 0;
 }
 .content h3 span{
-    color: #86c724;	
+    color: #B71919;	
 }
 .content p{
 	font-size:.9em;
@@ -488,7 +489,7 @@ ul.dropdown-menu {
     margin: 0;
 }
 .two-fifth h2 span{
-    color: #86c724;
+    color: #B71919;
 	display:block;
 }
 .one-fifth input[type="submit"] {
@@ -510,7 +511,7 @@ ul.dropdown-menu {
 	margin-top:0;
 }
 .one-fifth input[type="submit"]:hover, .form-submit input[type="submit"]:hover{
-	background: #86c724;
+	background: #B71919;
     text-decoration: none;
     color: #fff;
 }
@@ -533,7 +534,7 @@ ul.dropdown-menu {
     margin: 0;
 }
 .w3-banner-bottom-heading h3 span{
-    color: #86c724;
+    color: #B71919;
 }
 .agileits-banner-bottom{
 	margin:4em 0 0 0;
@@ -586,7 +587,7 @@ ul.dropdown-menu {
 	color:#fff;
 }
 .services-grid1:hover .services-grid-left h4{
-	color: #86c724;
+	color: #B71919;
 }
 /* Radial Out */
 .hvr-radial-out {
@@ -626,7 +627,7 @@ ul.dropdown-menu {
   transition-timing-function: ease-out;
 }
 .services-grid-right-grid:before {
-    background: #86c724;
+    background: #B71919;
 }
 .hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
   color: white;
@@ -672,7 +673,7 @@ ul.dropdown-menu {
     background: #67d6ff;
 }
 .green-top{
-	background: #86c724;
+	background: #B71919;
 }
 
 .pricing-top h3{
@@ -732,7 +733,7 @@ p.text {
 	text-decoration: none;
 }
 .buy-button a:hover{
-	background: #86c724;
+	background: #B71919;
 }
 /*-- //pricing --*/
 /*-- //special --*/
@@ -795,7 +796,7 @@ p.text {
 }
 i.fa.fa-quote-right {
     font-size: 1em;
-    color: #86c724;
+    color: #B71919;
 }
 .testimonial-top p {
 	color: #999999;
@@ -984,7 +985,7 @@ i.fa.fa-quote-right {
     height: 10px;
     width: 10px;
     display: inline-block;
-    background: #86c724;
+    background: #B71919;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -o-border-radius: 50%;
@@ -1049,8 +1050,8 @@ button.btn1 {
     -ms-transition: 0.5s all;
 }
 button.btn1:hover{
-	background:#86c724;
-	border: solid 2px #86c724;
+	background:#B71919;
+	border: solid 2px #B71919;
 }
 /*-- //subscribe --*/
 /*-- footer --*/
@@ -1071,7 +1072,7 @@ button.btn1:hover{
     font-family: 'Roboto', sans-serif;
 }
 .agile-footer-grid h4 span{
-	color:#86c724;
+	color:#B71919;
 }
 .agile-footer-grid p{
 	color: #bbbbbb;
@@ -1098,7 +1099,7 @@ ul.w3agile_footer_grid_list li:last-child {
     margin-bottom: 0;
 }
 ul.w3agile_footer_grid_list li a {
-    color: #86c724;
+    color: #B71919;
     text-decoration: none;
 }
 ul.w3agile_footer_grid_list li span {
@@ -1138,7 +1139,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter{
 	text-decoration:none;
 }
 .copyright p a:hover{
-    color: #86c724;
+    color: #B71919;
 }
 /*-- //footer --*/
 /*-- about-heading --*/
@@ -1159,7 +1160,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter{
     margin: 0;
 }
 .about-heading h2 span {
-    color: #86c724;
+    color: #B71919;
 }
 .wthree-top-grid h4,.choose-info h4 {
     text-transform: capitalize;
@@ -1210,7 +1211,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter{
 	color:#FFFFFF;
 }
 .choose-icon i.fa.fa-user,.choose-icon i.fa.fa-cogs,.choose-icon i.fa.fa-thumbs-o-up {
-    background: #86c724;
+    background: #B71919;
     padding: .9em 0 0 0;
     width: 90px;
     height: 90px;
@@ -1297,7 +1298,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter{
   background: #1a4a72;
 }
 .ih-item.circle.effect10 .info {
-    background: #86c724;
+    background: #B71919;
     opacity: 0;
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
@@ -1708,7 +1709,7 @@ ul.count li {
     top: -7px;
     left: -7px;
     padding: 7px;
-    box-shadow: 0 0 0 2px #86c724;
+    box-shadow: 0 0 0 2px #B71919;
     -webkit-transition: -webkit-transform 0.5s, opacity 0.2s;
     -webkit-transform: scale(0.8);
     -moz-transition: -moz-transform 0.5s, opacity 0.2s;
@@ -1719,7 +1720,7 @@ ul.count li {
     opacity: 0;
 }
 .servc-grid:hover span{
-    background: #86c724;
+    background: #B71919;
     color: #fff !important;
 }
 .servc-grid:hover span:after {
@@ -1830,10 +1831,10 @@ ul.count li {
     line-height: 1.8em;
 }
 .agile-news-grid:hover div.agile-news-date{
-	background: #86c724;	
+	background: #B71919;	
 }
 .agile-news-grid:hover div.agile-news-text h5 a{
-	color: #86c724;	
+	color: #B71919;	
 }
 /*-- //featured-services --*/
 /*-- //services --*/
@@ -1957,7 +1958,7 @@ a.pa_italic:focus {
     border: none;
     color: #FFFFFF;
     cursor: pointer;
-    background: #86c724;
+    background: #B71919;
     box-shadow: 0px 2px 1px rgba(28, 28, 29, 0.42);
 	border-radius: 22px;
 	
@@ -2042,7 +2043,7 @@ a.pa_italic:focus {
     cursor: pointer;
 } 
 .icon-box:hover {
-    background: #86c724;
+    background: #B71919;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -2387,7 +2388,7 @@ h2.typoh2{
     float: left;
     width: 100px;
     height: 100px;
-    background: #86c724;
+    background: #B71919;
     text-align: center;
     padding: 1.6em 0 0 0;
 }
@@ -2412,7 +2413,7 @@ i.fa.fa-pencil{
     color: #000000;
 }
 .blog-left-right-top h4 a:hover{
-	color:#86c724;
+	color:#B71919;
 }
 .blog-left-right-top p {
     margin: 0 0 1em;
@@ -2421,7 +2422,7 @@ i.fa.fa-pencil{
     color: #333333;
 }
 .blog-left-right-top p a {
-    color: #86c724;
+    color: #B71919;
     text-decoration: none;
 }
 .blog-left-right-top p a:hover{
@@ -2448,8 +2449,8 @@ i.fa.fa-pencil{
     background: #212121;
 }
 .blog-left-right-bottom a:hover {
-    background: #86c724;
-	border: solid 2px #86c724;
+    background: #B71919;
+	border: solid 2px #B71919;
     color: #FFFFFF;
 }
 .agile-blog-grid:nth-child(2){
@@ -2478,7 +2479,7 @@ i.fa.fa-pencil{
     padding-left: 2em;;
 }
 .categories ul li a:hover {
-    color: #86c724;
+    color: #B71919;
     text-decoration: none;
     transition: .5s all;
     -webkit-transition: .5s all;
@@ -2518,7 +2519,7 @@ i.fa.fa-pencil{
     width: 80%;
 }
 .media-left.response-text-left h5 a {
-    color: #86c724;
+    color: #B71919;
 }
 .media-left.response-text-left h5 a:hover {
     color: #3b3b3b;
@@ -2545,7 +2546,7 @@ i.fa.fa-pencil{
     margin-right: 1em;
 }
 .response-text-right ul li a {
-    color: #86c724;
+    color: #B71919;
     text-decoration: none;
 }
 .response-text-right ul li a:hover {
@@ -2603,8 +2604,8 @@ i.fa.fa-pencil{
     -ms-transition: 0.5s all;
 }
 .opinion form input[type="submit"]:hover {
-	background: #86c724;
-	border: solid 2px #86c724;
+	background: #B71919;
+	border: solid 2px #B71919;
     color: #FFFFFF;
 }
 /*-- //single --*/
@@ -2632,7 +2633,7 @@ i.fa.fa-pencil{
 .agileits-contact-address ul li i.fa.fa-phone,.agileits-contact-address ul li i.fa.fa-map-marker {
     height: 40px;
     width: 40px;
-    background: #86c724;
+    background: #B71919;
     line-height: 40px;
     text-align: center;
     color: #FFF;
@@ -2700,9 +2701,9 @@ i.fa.fa-pencil{
     -ms-transition: 0.5s all;
 }
 .agileinfo-contact-form-grid button.btn1:hover{
-    border: solid 2px #86c724;
+    border: solid 2px #B71919;
     color: #FFFFFF;
-	background:#86c724;
+	background:#B71919;
 }
 .w3agile-map {
     margin: 4em 0 0 0;
@@ -2723,7 +2724,7 @@ i.fa.fa-pencil{
     font-family: 'Roboto', sans-serif;
 }
 .w3layouts-contact-form-top h3 span,.contact-form-top h3 span,.w3agile-map h3 span{
-	color: #86c724;
+	color: #B71919;
 }
 /*-- //contact --*/
 /*-- to-top --*/
