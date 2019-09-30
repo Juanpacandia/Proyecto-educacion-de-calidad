@@ -34,7 +34,7 @@
 			<div class="w3layouts-address">
 				<ul>
 					<li><i class="fa fa-mobile" aria-hidden="true"></i> +57 3174071823</li>
-					<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:info@example.com"> educaciondecalidad@gmail.com</a></li>
+					<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:educaciondecalidad@gmail.com"> educaciondecalidad@gmail.com</a></li>
 				</ul>
 			</div>
 			<div class="agileinfo-social-grids">
@@ -108,21 +108,24 @@
 				  </div>
 				  <div class="slide" data-blurred="">
 						<div class="col-md-6 image">
-							<img src="resources/images/Slider2.jpg" alt="Slider 1" />
+							<img src="resources/images/Slider2.jpg" alt="Slider 2" />
 						</div>
 						<div class="col-md-6 content">
 							<h3>Educacion de <span>Calidad</span></h3>
-							<p>Donec sagittis, dui sed lobortis convallis, ante eros auctor leo, vel commodo lacus nisl vitae velit. Nulla facilisi. Integer vehicula porta urna, id lacinia nisl semper vel. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+							<p>La educación es la clave para poder alcanzar otros muchos Objetivos de
+                                                           Desarrollo Sostenible (ODS). Cuando las personas pueden acceder a
+                                                           una educación de calidad, pueden escapar del ciclo de la pobreza. </p>
 						</div>
 						<div class="clearfix"> </div>
 				  </div>
 				  <div class="slide" data-blurred="">
 						<div class="col-md-6 image">
-							<img src="resources/images/2a.jpg" alt="Slider 1" />
+							<img src="resources/images/Slider3.jpg" alt="Slider 3" />
 						</div>
 						<div class="col-md-6 content">
 							<h3>Datos <span>Destacables</span></h3>
-							<p>Aliquam at efficitur odio, et commodo odio. Nulla est lectus, tristique sit amet lorem at, porttitor dapibus nisi. Quisque bibendum sem ut ex pharetra sagittis. Vestibulum eu sapien non purus interdum tempus. Aenean varius elit sit amet lorem ultrices, at iaculis velit sodales. </p>
+                                                        <p>La matriculación en la enseñanza primaria en los países en desarrollo ha alcanzado el 91%, pero 57 millones de niños en edad de escolarización primaria siguen sin asistir a la escuela</p>
+                                                        <p>Más de la mitad de los niños que no están matriculados en la escuela viven en el África Subsahariana.</p>
 						</div>
 						<div class="clearfix"> </div>
 				  </div>
@@ -138,60 +141,23 @@
 
 	</script>
         <!-- //banner -->
-	<div class="domain">
-		<div class="container">
-			<form class="search-form domain-search" action="#" method="post">
-				<div class="two-fifth column first">
-					<h2>search your <span>domain</span></h2>
-				</div>
-				<div class="three-fifth column first">
-					<input type="text" class="text" name="Name" placeholder="Enter your domain name" required="">               
-				</div>
-				<div class="one-fifth column">
-					<span class="selection-box">
-						<select class="domains valid" name="domains">
-							<option>Year (0-1 Year)</option>
-							<option>Year (0-2 Year)</option>
-							<option>Year (0-4 Year)</option>
-							<option>Year (0-8 Year)</option>
-						</select>
-					</span>
-				</div>
-				<div class="one-fifth column">
-					<span class="selection-box">
-						<select class="domains valid" name="domains">
-							<option>.com</option>
-							<option>.info</option>
-							<option>.net</option>
-							<option>.org</option>
-						</select>
-					</span>
-				</div>
-				<div class="one-fifth column">
-					<input type="submit" value="Search">
-				</div>
-				<div class="clearfix"> </div>
-			</form>
-		</div>
-	</div>
 	<!-- banner-bottom -->
 	<div class="banner-bottom">
 		<div class="container">
 			<div class="w3-banner-bottom-heading">
-				<h3>What <span>We Do?</span></h3>
+				<h3>Cifras <span>importantes</span></h3>
 			</div>
 			<div class="agileits-banner-bottom">
 				<div class="col-md-3 agileits-banner-bottom-grid">
 					<div class="services-grid1">
 						<div class="services-grid-right agile-services-grid-right">
 							<div class="services-grid-right-grid hvr-radial-out blue-grid">
-								<span class="glyphicon glyphicon-grain" aria-hidden="true"></span>
+								<span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
 							</div>
 						</div>
 						<div class="services-grid-left agile-services-grid-left">
-							<h4>repreh qui in ea voluptate</h4>
-							<p>Itaque earum rerum hic tenetur a sapiente 
-							delectus, ut aut reiciendis voluptatibus maiores alias</p>
+							<h4>91%</h4>
+							<p>La matriculación en educación primaria en los países en desarrollo ha alcanzado el 91%</p>
 						</div>
 					</div>
 				</div>
@@ -199,13 +165,13 @@
 					<div class="services-grid1">
 						<div class="services-grid-right agile-services-grid-right">
 							<div class="services-grid-right-grid hvr-radial-out orange-grid">
-								<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+								<span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
 							</div>
 						</div>
 						<div class="services-grid-left agile-services-grid-left">
-							<h4>repreh qui in ea voluptate</h4>
-							<p>Itaque earum rerum hic tenetur a sapiente 
-							delectus, ut aut reiciendis voluptatibus maiores alias</p>
+							<h4>57 millones</h4>
+							<p>Aún así, 57 millones de niños de edad primaria permanecen fuera de la escuela, 
+                                                            más de la mitad de ellos en África subsahariana.</p>
 						</div>
 					</div>
 				</div>
@@ -213,13 +179,13 @@
 					<div class="services-grid1">
 						<div class="services-grid-right agile-services-grid-right">
 							<div class="services-grid-right-grid hvr-radial-out green-grid">
-								<span class="glyphicon glyphicon-magnet" aria-hidden="true"></span>
+								<span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
 							</div>
 						</div>
 						<div class="services-grid-left agile-services-grid-left">
-							<h4>repreh qui in ea voluptate</h4>
-							<p>Itaque earum rerum hic tenetur a sapiente 
-							delectus, ut aut reiciendis voluptatibus maiores alias</p>
+							<h4>1 de cada 4</h4>
+							<p>En los países en desarrollo, una de cada cuatro niñas no 
+                                                            asiste a la escuela.</p>
 						</div>
 					</div>
 				</div>
@@ -231,9 +197,9 @@
 							</div>
 						</div>
 						<div class="services-grid-left agile-services-grid-left">
-							<h4>repreh qui in ea voluptate</h4>
-							<p>Itaque earum rerum hic tenetur a sapiente 
-							delectus, ut aut reiciendis voluptatibus maiores alias</p>
+							<h4>103 millones</h4>
+							<p>103 millones de jóvenes en el mundo carecen de 
+                                                            habilidades básicas de alfabetización, y más del 60% de ellos son mujeres.</p>
 						</div>
 					</div>
 				</div>
@@ -242,146 +208,6 @@
 		</div>
 	</div>
 	<!-- //banner-bottom -->
-	<!-- special -->
-	<div class="special">
-		<div class="container">
-			<div class="w3-banner-bottom-heading">
-				<h3>Special Introductory <span>Offers</span></h3>
-			</div>
-			<div class="wthree-special-grid">
-				<div class="flipster">
-				  <ul>
-					<li>
-						<div class="pricing">
-							<div class="pricing-top green-top">
-								<h3>Business</h3>
-								<p>$50/month</p>
-							</div>
-							<div class="pricing-bottom">
-								<div class="pricing-bottom-top">
-									<p>1 Website</p>
-									<p>1 Year Updates</p>
-									<p>1 Year Email Support</p>
-								</div>
-								<div class="pricing-bottom-bottom">
-									<p><span>Unlimited</span> Email Addresses</p>
-									<p><span>65GB </span> of Storage</p>
-									<p><span>75</span> Databases</p>  
-									<p><span>25</span> Domains</p>
-									<p class="text"><span>24/7</span> Unlimited Support</p>
-								</div>
-								<div class="buy-button">
-									<a href="plans.html">Read More</a>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="pricing">
-							<div class="pricing-top blue-top">
-								<h3>Corporate</h3>
-								<p>$70/month</p>
-							</div>
-							<div class="pricing-bottom">
-								<div class="pricing-bottom-top">
-									<p>1 Website</p>
-									<p>1 Year Updates</p>
-									<p>1 Year Email Support</p>
-								</div>
-								<div class="pricing-bottom-bottom">
-									<p><span>Unlimited</span> Email Addresses</p>
-									<p><span>85GB </span> of Storage</p>
-									<p><span>65</span> Databases</p>  
-									<p><span>30</span> Domains</p>
-									<p class="text"><span>24/7</span> Unlimited Support</p>
-								</div>
-								<div class="buy-button">
-									<a href="plans.html">Read More</a>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="pricing">
-							<div class="pricing-top">
-								<h3>Personal</h3>
-								<p>$35/month</p>
-							</div>
-							<div class="pricing-bottom">
-								<div class="pricing-bottom-top">
-									<p>1 Website</p>
-									<p>1 Year Updates</p>
-									<p>1 Year Email Support</p>
-								</div>
-								<div class="pricing-bottom-bottom">
-									<p><span>Unlimited</span> Email Addresses</p>
-									<p><span>50GB </span> of Storage</p>
-									<p><span>55</span> Databases</p>  
-									<p><span>21</span> Domains</p>
-									<p class="text"><span>24/7</span> Unlimited Support</p>
-								</div>
-								<div class="buy-button">
-									<a href="plans.html">Read More</a>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="pricing">
-							<div class="pricing-top green-top">
-								<h3>Business</h3>
-								<p>$50/month</p>
-							</div>
-							<div class="pricing-bottom">
-								<div class="pricing-bottom-top">
-									<p>1 Website</p>
-									<p>1 Year Updates</p>
-									<p>1 Year Email Support</p>
-								</div>
-								<div class="pricing-bottom-bottom">
-									<p><span>Unlimited</span> Email Addresses</p>
-									<p><span>65GB </span> of Storage</p>
-									<p><span>75</span> Databases</p>  
-									<p><span>25</span> Domains</p>
-									<p class="text"><span>24/7</span> Unlimited Support</p>
-								</div>
-								<div class="buy-button">
-									<a href="plans.html">Read More</a>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="pricing">
-							<div class="pricing-top">
-								<h3>Personal</h3>
-								<p>$35/month</p>
-							</div>
-							<div class="pricing-bottom">
-								<div class="pricing-bottom-top">
-									<p>1 Website</p>
-									<p>1 Year Updates</p>
-									<p>1 Year Email Support</p>
-								</div>
-								<div class="pricing-bottom-bottom">
-									<p><span>Unlimited</span> Email Addresses</p>
-									<p><span>50GB </span> of Storage</p>
-									<p><span>55</span> Databases</p>  
-									<p><span>21</span> Domains</p>
-									<p class="text"><span>24/7</span> Unlimited Support</p>
-								</div>
-								<div class="buy-button">
-									<a href="plans.html">Read More</a>
-								</div>
-							</div>
-						</div>
-					</li>
-				  </ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //special -->
 	<!-- choose -->
 	<div class="choose jarallax">
 		<div class="w3-agile-testimonial">
@@ -389,23 +215,21 @@
 				<div class="w3-agileits-choose">
 					<div class="col-md-6 choose-grid">
 						<div class="w3-banner-bottom-heading choose-heading">
-							<h3>Why Choose<span> Us?</span></h3>
+							<h3>Objetivos<span> en accion</span></h3>
 						</div>
 						<div class="top-choose-info">
 							<div class="choose-info-top">
 								<div class="choose-left-grid col-sm-6">
 									<div class="choose-info-grid ">
 										<ul>
-											<li><i class="fa fa-bell" aria-hidden="true"></i></li>
-											<li>Lorem ipsum</li>
+											<li><a href="https://feature.undp.org/global-goals-2019/es/" style="color:#FFFFFF">Semana de los objetivos mundiales.</a></li>
 										</ul>
 									</div>
 								</div>
 								<div class="choose-right-grid col-sm-6">
 									<div class="choose-info-grid ">
 										<ul>
-											<li><i class="fa fa-cog" aria-hidden="true"></i></li>
-											<li>Nulla dictum</li>
+											<li><a href="https://medium.com/@pnud/todo-ha-cambiado-para-siempre-fa98dfdf4bce" style="color:#FFFFFF">Todo ha cambiado para siempre.</a></li>
 										</ul>
 									</div>
 								</div>
@@ -415,16 +239,14 @@
 								<div class="choose-left-grid col-sm-6">
 									<div class="choose-info-grid ">
 										<ul>
-											<li><i class="fa fa-comments" aria-hidden="true"></i></li>
-											<li>Lorem ipsum</li>
+                                                                                        <li><a href="https://www.humanrights70.org/es/" style="color:#FFFFFF">70 años de los derechos humanos.</a></li>
 										</ul>
 									</div>
 								</div>
 								<div class="choose-right-grid col-sm-6">
 									<div class="choose-info-grid ">
 										<ul>
-											<li><i class="fa fa-user" aria-hidden="true"></i></li>
-											<li>Nulla dictum</li>
+											<li><a href="https://stories.undp.org/una-vida-libre-de-parasitos-para-los-ninos-de-tanzania" style="color:#FFFFFF">Cuidando la salud de los niños en Tanzania.</a></li>
 										</ul>
 									</div>
 								</div>
@@ -434,16 +256,14 @@
 								<div class="choose-left-grid col-sm-6">
 									<div class="choose-info-grid ">
 										<ul>
-											<li><i class="fa fa-money" aria-hidden="true"></i></li>
-											<li>Lorem ipsum</li>
+											<li><a href="https://stories.undp.org/" style="color:#FFFFFF">La radio resuena en Laos</a></li>
 										</ul>
 									</div>
 								</div>
 								<div class="choose-right-grid col-sm-6">
 									<div class="choose-info-grid ">
 										<ul>
-											<li><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></li>
-											<li>Nulla dictum</li>
+											<li><a href="https://stories.undp.org/mujeres-que-salvan-vidas" style="color:#FFFFFF">Mujeres que salvan vidas.</a></li>
 										</ul>
 									</div>
 								</div>
@@ -453,7 +273,7 @@
 					</div>
 					<div class="col-md-6 choose-grid">
 						<div class="w3-banner-bottom-heading choose-heading">
-							<h3>What People<span> say's?</span></h3>
+							<h3>Algunas<span> frases</span></h3>
 						</div>
 						<div class="top-choose-info testimonial-info">
 							<div class="wthree-testimonial-grid">
@@ -463,15 +283,19 @@
 													<li>
 														<div class="testimonial-top">
 															<i class="fa fa-quote-right" aria-hidden="true"></i>
-															<p>Donec feugiat tellus sem, laoreet iaculis orci lobortis vel. Sed sed luctus orci, at lacinia risus. Ut porttitor ante ac tincidunt elementum. Curabitur ex dolor, condimentum vitae nunc vel, pulvinar semper justo. Vestibulum et aliquet magna, maximus dapibus enim.</p>
-															<h5>John Smith <span>- Customer</span></h5>
+															<p>Dentro de algunas décadas, la relación entre el ambiente, 
+                                                                                                                            los recursos y los conflictos será tan obvia como la conexión 
+                                                                                                                            que vemos ahora entre derechos humanos, democracia y paz.</p>
+															<h5>Wangari Maathai <span>- Premio Nobel de la Paz 2004</span></h5>
 														</div>
 													</li>
 													<li>
 														<div class="testimonial-top">
 															<i class="fa fa-quote-right" aria-hidden="true"></i>
-															<p>Pellentesque urna ex, ultricies a nunc at, pretium maximus nisi. Vestibulum non auctor diam. Mauris eget consectetur mauris. Aenean leo elit, accumsan vel elit vitae, mattis ultricies lacus. Cras consectetur justo lorem, sed dictum sapien eleifend at.Donec sed </p>
-															<h5>Divide Rule <span>- Customer</span></h5>
+															<p>Cuando las generaciones futuras juzguen a las que vinieron antes 
+                                                                                                                            respecto a temas ambientales, tal vez lleguen a la conclusión de que no sabían: 
+                                                                                                                            evitemos pasar a la historia como las generaciones que sí sabían, pero no les importó </p>
+															<h5>Mikhail Gorbachev <span>- (2002)</span></h5>
 														</div>
 													</li>
 												</ul>
@@ -508,140 +332,13 @@
 		</div>
 	</div>
 	<!-- //choose -->
-	<!-- subscribe -->
-	<div class="subscribe">
-		<div class="container">
-			<div class="w3-banner-bottom-heading">
-				<h3>Subscribe<span> with Us</span></h3>
-			</div>
-			<div class="w3-agile-subscribe-form">
-				<form action="#" method="post">
-					<input type="text" placeholder="Email" name="Email" required="">
-					<button class="btn1">Subscribe</button>
-				</form>
-			</div>
-		</div>
-	</div>
-	<!-- //subscribe -->
 	<!-- footer -->
 	<div class="footer">
-		<div class="container">
-			<div class="agile-footer-grids">
-				<div class="col-md-4 agile-footer-grid">
-					<h4>History of <span>Hosting</span></h4>
-					<p>Pellentesque urna ex, ultricies a nunc at, pretium maximus nisi. Vestibulum non auctor diam. Mauris eget consectetur mauris. <span>Aenean leo elit, accumsan vel elit vitae, mattis ultricies lacus. Cras consectetur justo lorem, sed dictum sapien eleifend at.</span></p>
-				</div>
-				<div class="col-md-4 agile-footer-grid">
-					<h4>Twitter <span>Posts</span></h4>
-					<ul class="w3agile_footer_grid_list">
-						<li>Ut aut reiciendis voluptatibus maiores <a href="#">http://example.com</a> alias, ut aut reiciendis.
-							<span><i class="fa fa-twitter" aria-hidden="true"></i> 02 days ago</span></li>
-						<li>Itaque earum rerum hic tenetur a sapiente delectus <a href="#">http://example.com</a> ut aut
-							voluptatibus.<span><i class="fa fa-twitter" aria-hidden="true"></i> 03 days ago</span></li>
-					</ul>
-				</div>
-				<div class="col-md-4 agile-footer-grid">
-					<h4>Popular <span>Posts</span></h4>
-					<div class="popular-grids">
-						<div class="popular-grid">
-							<a href="#"><img src="resources/images/6.jpg" alt=""></a>
-						</div>
-						<div class="popular-grid">
-							<a href="#"><img src="resources/images/7.jpg" alt=""></a>
-						</div>
-						<div class="popular-grid">
-							<a href="#"><img src="resources/images/8.jpg" alt=""></a>
-						</div>
-						<div class="popular-grid">
-							<a href="#"><img src="resources/images/9.jpg" alt=""></a>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="popular-grids agileits-w3layouts-popular">
-						<div class="popular-grid">
-							<a href="#"><img src="resources/images/10.jpg" alt=""></a>
-						</div>
-						<div class="popular-grid">
-							<a href="#"><img src="resources/images/4.jpg" alt=""></a>
-						</div>
-						<div class="popular-grid">
-							<a href="#"><img src="resources/images/6.jpg" alt=""></a>
-						</div>
-						<div class="popular-grid">
-							<a href="#"><img src="resources/images/7.jpg" alt=""></a>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="popular-grids">
-						<div class="popular-grid">
-							<a href="#"><img src="resources/images/8.jpg" alt=""></a>
-						</div>
-						<div class="popular-grid">
-							<a href="#"><img src="resources/images/9.jpg" alt=""></a>
-						</div>
-						<div class="popular-grid">
-							<a href="#"><img src="resources/images/10.jpg" alt=""></a>
-						</div>
-						<div class="popular-grid">
-							<a href="#"><img src="resources/images/4.jpg" alt=""></a>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
 		<div class="copyright">
-			<p>Â© 2016 Hosting City. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+			<p>© 2019 Desarrollo Sostenible. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
 		</div>
 	</div>
 	<!-- //footer -->
-	<script src="js/jarallax.js"></script>
-	<script type="text/javascript">
-		/* init Jarallax */
-		$('.jarallax').jarallax({
-			speed: 0.5,
-			imgWidth: 1366,
-			imgHeight: 768
-		})
-	</script>
-	<script src="js/responsiveslides.min.js"></script>
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
-	<!-- here stars scrolling icon -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
-								
-			$().UItoTop({ easingType: 'easeOutQuart' });
-								
-			});
-	</script>
-	<!-- //here ends scrolling icon -->
-	<!-- pricing -->
-	<script src="js/jquery.flipster.js"></script>
-	<script>
-	<!--
-		
-		$(function(){ $(".flipster").flipster({ style: 'carousel', start: 0 }); });
-
-	-->
-	</script>
-	<!-- //pricing -->
-	<!-- slider -->
-	<script type="text/javascript" src="js/jquery.immersive-slider.js"></script>
-	<!-- //slider -->
-        <!--img src="../" alt="prueba"/-->
-        <img src="resources/imagenes/educacion.jpg" alt="prueba"/>
-        <img src="resources/imagenes/dados.png" alt="prueba"/>
-        
-        <a href="/proyecto_AS/customer/list">Regresar</a>
+	
 </body>
 </html>
