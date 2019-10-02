@@ -74,16 +74,20 @@
 						<nav>
 							<ul class="nav navbar-nav">
 								<li><a href="/proyecto_AS/" class="hvr-sweep-to-bottom">Inicio</a></li>
-								<li><a href="/" class="hvr-sweep-to-bottom">Contribuir</a></li>
+								<li><a href="/" class="hvr-sweep-to-bottom">ODS</a></li>
 								<li><a href="/" class="hvr-sweep-to-bottom">Foro</a></li>
 								<li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Temas<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a class="hvr-sweep-to-bottom" href="/">¿Que es el desarollo sostenible?</a></li>
+										<li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/customer/sustainableDevelopment">¿Que es el desarollo sostenible?</a></li>
 										<li><a class="hvr-sweep-to-bottom" href="/">Modelos de vida sostenibles</a></li>
 										<li><a class="hvr-sweep-to-bottom" href="/">Violencia de genero</a></li>
+                                                                                <li><a class="hvr-sweep-to-bottom" href="/">Derechos humanos</a></li>
+                                                                                <li><a class="hvr-sweep-to-bottom" href="/">Cultura de paz y no violencia</a></li>
+                                                                                <li><a class="hvr-sweep-to-bottom" href="/">Cuidadania mundial</a></li>
+                                                                                <li><a class="hvr-sweep-to-bottom" href="/">Diversidad cultural</a></li>
 									</ul>
 								</li>
-								<li><a href="/" class="hvr-sweep-to-bottom">Blog</a></li>
+								<li><a href="/" class="hvr-sweep-to-bottom">Organizaciones</a></li>
                                         
 								<li><a href="/" class="hvr-sweep-to-bottom">¿Necesitas ayuda?</a></li>
                                                                 <li class="active"><a href="/proyecto_AS/customer/list">Consultar usuario</a></li>

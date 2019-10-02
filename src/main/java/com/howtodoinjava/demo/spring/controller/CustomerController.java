@@ -13,11 +13,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.howtodoinjava.demo.spring.model.Customer;
 import com.howtodoinjava.demo.spring.service.CustomerService;
-import java.text.DateFormat;
-import java.util.Date;
-import java.util.Locale;
-import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.RequestMethod;
 
 
 @Controller
@@ -59,5 +54,16 @@ public class CustomerController {
 	public String deleteCustomer(@RequestParam("customerId") int theId) {
 		customerService.deleteCustomer(theId);
 		return "redirect:/customer/list";
+	}
+        
+                //--vistas//
+        @PostMapping("/sustainableDevelopment")
+	public String sustainable(@ModelAttribute("customer") Customer theCustomer) {
+		return "redirect:/customer/list";
+	}
+        
+        @GetMapping("/sustainableDevelopment")
+	public String sustainable(Model theModel) {
+		return "sustainableDevelopment";
 	}
 }

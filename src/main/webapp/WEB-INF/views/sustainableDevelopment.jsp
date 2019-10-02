@@ -1,15 +1,19 @@
+<%-- 
+    Document   : sustainableDevelopment
+    Created on : 30/09/2019, 07:40:03 PM
+    Author     : jpcan
+--%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Proyecto Arquitectura</title>
-<link href="<c:url value="/resources/css/bootstrap.min.css" />"	rel="stylesheet">
-<script src="<c:url value="/resources/js/jquery-1.11.1.min.js" />"></script>
-<script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
+    <head><%@ page isELIgnored="false" %>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Proyecto arquitectura</title>
+<link href="<c:url value="../resources/css/bootstrap.min.css" />"rel="stylesheet">
+<script src="<c:url value="../resources/js/jquery-1.11.1.min.js" />"></script>
+<script src="<c:url value="../resources/js/bootstrap.min.js" />"></script>
 <link href="${pageContext.request.contextPath}../resources/css/style.css"rel="stylesheet">
         <link href="${pageContext.request.contextPath}../resources/css/bootstrap.css"rel="stylesheet">
         <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -31,8 +35,8 @@
                     });
             </script>
 </head>
-<body>
-    <!-- header-top -->
+    <body>
+        <!-- header-top -->
 	<div class="header-top">
 		<div class="container">
 			<div class="w3layouts-address">
@@ -74,10 +78,10 @@
 					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 						<nav>
 							<ul class="nav navbar-nav">
-								<li><a href="/proyecto_AS/" class="hvr-sweep-to-bottom">Inicio</a></li>
+                                                            <li><a href="/proyecto_AS/" class="hvr-sweep-to-bottom">Inicio</a></li>
 								<li><a href="/" class="hvr-sweep-to-bottom">ODS</a></li>
 								<li><a href="/" class="hvr-sweep-to-bottom">Foro</a></li>
-								<li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Temas<span class="caret"></span></a>
+								<li class="active"><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Temas<span class="caret"></span></a>
 									<ul class="dropdown-menu">
 										<li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/customer/sustainableDevelopment">¿Que es el desarollo sostenible?</a></li>
 										<li><a class="hvr-sweep-to-bottom" href="/">Modelos de vida sostenibles</a></li>
@@ -91,7 +95,7 @@
 								<li><a href="/" class="hvr-sweep-to-bottom">Organizaciones</a></li>
                                         
 								<li><a href="/" class="hvr-sweep-to-bottom">¿Necesitas ayuda?</a></li>
-                                                                <li class="active"><a href="/proyecto_AS/customer/list">Consultar usuario</a></li>
+                                                                <li><a href="/proyecto_AS/customer/list" class="hvr-sweep-to-bottom">Consultar usuario</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -100,50 +104,5 @@
 			</div>
 	</div>
         <!--//header -->
-	<div class="container">
-		<div class="col-md-offset-2 col-md-7">
-			<div class="panel panel-info">
-				<div class="panel-heading">
-					<div class="panel-title">Agregar Usuario</div>
-				</div>
-				<div class="panel-body">
-					<form:form action="saveCustomer" cssClass="form-horizontal"
-						method="post" modelAttribute="customer">
-
-						<!-- need to associate this data with customer id -->
-						<form:hidden path="id" />
-
-						<div class="form-group">
-							<label for="firstname" class="col-md-3 control-label">Nombres</label>
-							<div class="col-md-9">
-								<form:input path="firstName" cssClass="form-control" />
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="lastname" class="col-md-3 control-label">Apellidos</label>
-							<div class="col-md-9">
-								<form:input path="lastName" cssClass="form-control" />
-							</div>
-						</div>
-
-						<div class="form-group">
-							<label for="email" class="col-md-3 control-label">Email</label>
-							<div class="col-md-9">
-								<form:input path="email" cssClass="form-control" />
-							</div>
-						</div>
-
-						<div class="form-group">
-							<!-- Button -->
-							<div class="col-md-offset-3 col-md-9">
-								<form:button cssClass="btn btn-primary">Agregar</form:button>
-							</div>
-						</div>
-
-					</form:form>
-				</div>
-			</div>
-		</div>
-	</div>
-</body>
+    </body>
 </html>
