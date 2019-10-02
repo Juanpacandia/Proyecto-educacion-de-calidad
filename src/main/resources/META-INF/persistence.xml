@@ -3,6 +3,7 @@
   <persistence-unit name="com.howtodoinjava.spring5_proyecto_AS_war_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>com.howtodoinjava.demo.spring.model.User</class>
+    <class>com.howtodoinjava.demo.spring.model.ModelsLive</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/prueba?zeroDateTimeBehavior=convertToNull"/>
