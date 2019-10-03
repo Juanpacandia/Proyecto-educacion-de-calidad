@@ -42,8 +42,8 @@ public class CustomerServiceImpl implements CustomerService {
         
         @Override
 	@Transactional
-	public List<Modelslive> getModelslive() {
-		return customerDAO.getModelslive();
+	public List<Modelslive> getModelslives() {
+		return customerDAO.getModelslives();
 	}
 
 	@Override

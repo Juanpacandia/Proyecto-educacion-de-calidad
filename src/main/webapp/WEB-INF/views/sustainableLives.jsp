@@ -1,15 +1,34 @@
-<%-- 
-    Document   : sustainableLives
-    Created on : 1/10/2019, 07:19:12 PM
-    Author     : jpcan
---%>
-
-<%@page contentType="text/html" pageEncoding="windows-1252"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
         <title>Modelos de vida sostenibles</title>
+        <link href="<c:url value="../resources/css/bootstrap.min.css" />"	rel="stylesheet">
+<script src="<c:url value="../resources/js/jquery-1.11.1.min.js" />"></script>
+<script src="<c:url value="../resources/js/bootstrap.min.js" />"></script>
+<link href="${pageContext.request.contextPath}../resources/css/style.css"rel="stylesheet">
+        <link href="${pageContext.request.contextPath}../resources/css/bootstrap.css"rel="stylesheet">
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <link href="../resources/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="../resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="../resources/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../resources/css/font-awesome.css" rel="stylesheet"> 
+        <link href="../resources/css/immersive-slider.css" rel="stylesheet" type="text/css"/>
+        <link href="../resources/css/jquery.flipster.css" rel="stylesheet" type="text/css"/>
+        <script src="../resources/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+        <script src="../../resources/js/bootstrap.js" type="text/javascript"></script>
+        <script src="../resources/js/SmoothScroll.min.js" type="text/javascript"></script>
+         <script type="text/javascript">
+                    jQuery(document).ready(function($) {
+                            $(".scroll").click(function(event){		
+                                    event.preventDefault();
+                                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+                            });
+                    });
+            </script>
     </head>
     <body>
         <h1>Modelos de vida sostenibles</h1>

@@ -76,7 +76,7 @@
 								<li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Temas<span class="caret"></span></a>
 									<ul class="dropdown-menu">
 										<li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/views/sustainableDevelopment">¿Que es el desarollo sostenible?</a></li>
-										<li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/views/sustainableLives">Modelos de vida sostenibles</a></li>
+										<li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/models/sustainableLives">Modelos de vida sostenibles</a></li>
 										<li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/views/sustainableGenerViolence">Violencia de genero</a></li>
                                                                                 <li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/views/sustainableRights">Derechos humanos</a></li>
                                                                                 <li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/views/sustainablePeaceCulture">Cultura de paz y no violencia</a></li>

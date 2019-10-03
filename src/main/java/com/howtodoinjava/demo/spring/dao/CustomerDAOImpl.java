@@ -53,7 +53,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 	}
         
         @Override
-	public List<Modelslive> getModelslive(){
+	public List<Modelslive> getModelslives(){
 		Session session = sessionFactory.getCurrentSession();
 		CriteriaBuilder cb = session.getCriteriaBuilder();
 		CriteriaQuery<Modelslive> cq = cb.createQuery(Modelslive.class);

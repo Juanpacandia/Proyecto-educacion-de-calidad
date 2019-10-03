@@ -20,15 +20,15 @@ import com.howtodoinjava.demo.spring.service.CustomerService;
 public class ModelsLiveController {
     
     @Autowired
-	private CustomerService modelsliveService;
+	private CustomerService customerService;
 	
-	@GetMapping("/modelslive")
-	public String listModelslive(Model theModel) {
-		List<Modelslive> theModelslive = modelsliveService.getModelslive();
+        @GetMapping("/sustainableLives")
+	public String listCustomers(Model theModel) {
+		List<Modelslive> theModelslive = customerService.getModelslives();
 		theModel.addAttribute("modelslive", theModelslive);
 		return "sustainableLives";
 	}
-	
+        
 	@GetMapping("/sustainableLives-Form")
 	public String showFormForAdd(Model theModel) {
 		Modelslive theModelslive = new Modelslive();
@@ -38,21 +38,21 @@ public class ModelsLiveController {
 	
 	@PostMapping("/saveModelslive")
 	public String saveModelslive(@ModelAttribute("modelslive") Modelslive theModelslive) {
-		modelsliveService.saveModelslive(theModelslive);	
+		customerService.saveModelslive(theModelslive);	
 		return "redirect:/models/modelslive";
 	}
 	
 	@GetMapping("/sustainableLives-update")
 	public String showFormForUpdate(@RequestParam("modelsliveId") int theId,
 									Model theModel) {
-		Modelslive theModelslive = modelsliveService.getModelslive(theId);	
+		Modelslive theModelslive = customerService.getModelslive(theId);	
 		theModel.addAttribute("modelslive", theModelslive);
 		return "sustainableLives-update";
 	}
 	
 	@GetMapping("/delete")
 	public String deleteModelslive(@RequestParam("modelsliveId") int theId) {
-		modelsliveService.deleteModelslive(theId);
+		customerService.deleteModelslive(theId);
 		return "redirect:/models/modelslive";
 	}        
 }
