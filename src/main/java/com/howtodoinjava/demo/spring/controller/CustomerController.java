@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.howtodoinjava.demo.spring.model.Customer;
+import com.howtodoinjava.demo.spring.model.Modelslive;
 import com.howtodoinjava.demo.spring.service.CustomerService;
 
 
@@ -21,6 +22,7 @@ public class CustomerController {
 
 	@Autowired
 	private CustomerService customerService;
+  
 	
 	@GetMapping("/list")
 	public String listCustomers(Model theModel) {

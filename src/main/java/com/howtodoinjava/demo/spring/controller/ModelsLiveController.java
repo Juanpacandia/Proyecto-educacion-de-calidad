@@ -25,7 +25,7 @@ public class ModelsLiveController {
         @GetMapping("/sustainableLives")
 	public String listCustomers(Model theModel) {
 		List<Modelslive> theModelslive = customerService.getModelslives();
-		theModel.addAttribute("modelslive", theModelslive);
+		theModel.addAttribute("Modelslive", theModelslive);
 		return "sustainableLives";
 	}
         

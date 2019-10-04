@@ -5,7 +5,7 @@
 <html>
 <head><%@ page isELIgnored="false" %>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Diversity</title>
+<title>Organizations</title>
 <link href="<c:url value="../resources/css/bootstrap.min.css" />"	rel="stylesheet">
 <script src="<c:url value="../resources/js/jquery-1.11.1.min.js" />"></script>
 <script src="<c:url value="../resources/js/bootstrap.min.js" />"></script>
@@ -70,10 +70,10 @@
                                                                                 <li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/views/sustainableDiversity">Diversidad cultural</a></li>
 									</ul>
 								</li>
-								<li><a href="/proyecto_AS/views/organizations" class="hvr-sweep-to-bottom">Organizaciones</a></li>
+								<li class="active"><a href="/proyecto_AS/views/organizations">Organizaciones</a></li>
                                         
 								<li><a href="/proyecto_AS/views/reports" class="hvr-sweep-to-bottom">¿Necesitas ayuda?</a></li>
-                                                                <li class="active"><a href="/proyecto_AS/customer/list">Consultar usuario</a></li>
+                                                                <li><a href="/proyecto_AS/customer/list" class="hvr-sweep-to-bottom">Consultar usuario</a></li>
 							</ul>
 						</nav>
 					</div>

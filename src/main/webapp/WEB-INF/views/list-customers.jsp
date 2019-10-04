@@ -5,30 +5,13 @@
 <html>
 <head><%@ page isELIgnored="false" %>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Proyecto arquitectura</title>
+<title>Usuarios</title>
 <link href="<c:url value="../resources/css/bootstrap.min.css" />"	rel="stylesheet">
 <script src="<c:url value="../resources/js/jquery-1.11.1.min.js" />"></script>
 <script src="<c:url value="../resources/js/bootstrap.min.js" />"></script>
 <link href="${pageContext.request.contextPath}../resources/css/style.css"rel="stylesheet">
         <link href="${pageContext.request.contextPath}../resources/css/bootstrap.css"rel="stylesheet">
-        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-        <link href="../resources/css/bootstrap.css" rel="stylesheet" type="text/css"/>
-        <link href="../resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
         <link href="../resources/css/style.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="../resources/css/font-awesome.css" rel="stylesheet"> 
-        <link href="../resources/css/immersive-slider.css" rel="stylesheet" type="text/css"/>
-        <link href="../resources/css/jquery.flipster.css" rel="stylesheet" type="text/css"/>
-        <script src="../resources/js/jquery-1.11.1.min.js" type="text/javascript"></script>
-        <script src="../../resources/js/bootstrap.js" type="text/javascript"></script>
-        <script src="../resources/js/SmoothScroll.min.js" type="text/javascript"></script>
-         <script type="text/javascript">
-                    jQuery(document).ready(function($) {
-                            $(".scroll").click(function(event){		
-                                    event.preventDefault();
-                                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-                            });
-                    });
-            </script>
 </head>
 <body>
     <!-- header-top -->
@@ -74,22 +57,22 @@
 						<nav>
 							<ul class="nav navbar-nav">
 								<li><a href="/proyecto_AS/" class="hvr-sweep-to-bottom">Inicio</a></li>
-								<li><a href="/" class="hvr-sweep-to-bottom">ODS</a></li>
-								<li><a href="/" class="hvr-sweep-to-bottom">Foro</a></li>
+								<li><a href="/proyecto_AS/views/ODS" class="hvr-sweep-to-bottom">ODS</a></li>
+								<li><a href="/proyecto_AS/views/forum" class="hvr-sweep-to-bottom">Foro</a></li>
 								<li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Temas<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/customer/sustainableDevelopment">¿Que es el desarollo sostenible?</a></li>
-										<li><a class="hvr-sweep-to-bottom" href="/">Modelos de vida sostenibles</a></li>
-										<li><a class="hvr-sweep-to-bottom" href="/">Violencia de genero</a></li>
-                                                                                <li><a class="hvr-sweep-to-bottom" href="/">Derechos humanos</a></li>
-                                                                                <li><a class="hvr-sweep-to-bottom" href="/">Cultura de paz y no violencia</a></li>
-                                                                                <li><a class="hvr-sweep-to-bottom" href="/">Cuidadania mundial</a></li>
-                                                                                <li><a class="hvr-sweep-to-bottom" href="/">Diversidad cultural</a></li>
+										<li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/views/sustainableDevelopment">¿Que es el desarollo sostenible?</a></li>
+										<li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/views/sustainableLives">Modelos de vida sostenibles</a></li>
+										<li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/views/sustainableGenerViolence">Violencia de genero</a></li>
+                                                                                <li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/views/sustainableRights">Derechos humanos</a></li>
+                                                                                <li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/views/sustainablePeaceCulture">Cultura de paz y no violencia</a></li>
+                                                                                <li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/views/sustainableWorld">Cuidadania mundial</a></li>
+                                                                                <li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/views/sustainableDiversity">Diversidad cultural</a></li>
 									</ul>
 								</li>
-								<li><a href="/" class="hvr-sweep-to-bottom">Organizaciones</a></li>
+								<li><a href="/proyecto_AS/views/organizations" class="hvr-sweep-to-bottom">Organizaciones</a></li>
                                         
-								<li><a href="/" class="hvr-sweep-to-bottom">¿Necesitas ayuda?</a></li>
+								<li><a href="/proyecto_AS/views/reports" class="hvr-sweep-to-bottom">¿Necesitas ayuda?</a></li>
                                                                 <li class="active"><a href="/proyecto_AS/customer/list">Consultar usuario</a></li>
 							</ul>
 						</nav>

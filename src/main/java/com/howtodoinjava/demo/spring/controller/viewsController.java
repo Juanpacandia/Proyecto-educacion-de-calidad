@@ -20,7 +20,49 @@ public class viewsController {
     
     @Autowired
     private CustomerService customerService;
+    //--views principals--//
+    @PostMapping("/ODS")
+	public String ODS(@ModelAttribute("customer") Customer theCustomer) {
+		return "redirect:/views/ODS";
+	}
+        
+    @GetMapping("/ODS")
+	public String ODS(Model theModel) {
+		return "ODS"; 
+        }
+        
+    @PostMapping("/forum")
+	public String forum(@ModelAttribute("customer") Customer theCustomer) {
+		return "redirect:/views/forum";
+	}
+        
+    @GetMapping("/forum")
+	public String forum(Model theModel) {
+		return "forum"; 
+        }
+        
+    @PostMapping("/organizations")
+	public String organizations(@ModelAttribute("customer") Customer theCustomer) {
+		return "redirect:/views/organizations";
+	}
+        
+    @GetMapping("/organizations")
+	public String organizations(Model theModel) {
+		return "organizations"; 
+        }
     
+    @PostMapping("/reports")
+	public String reports(@ModelAttribute("customer") Customer theCustomer) {
+		return "redirect:/views/reports";
+	}
+        
+    @GetMapping("/reports")
+	public String reports(Model theModel) {
+		return "reports"; 
+        }
+    //views principals//
+    
+    //--Views models live sustainables--//
     @PostMapping("/sustainableDevelopment")
 	public String sustainable(@ModelAttribute("customer") Customer theCustomer) {
 		return "redirect:/views/sustainableDevelopment";
@@ -29,6 +71,16 @@ public class viewsController {
     @GetMapping("/sustainableDevelopment")
 	public String sustainable(Model theModel) {
 		return "sustainableDevelopment";
+	}
+    
+    @PostMapping("/sustainableLives")
+	public String sustainableLives(@ModelAttribute("customer") Customer theCustomer) {
+		return "redirect:/views/sustainableLives";
+	}
+        
+    @GetMapping("/sustainableLives")
+	public String listCustomers(Model theModel) {
+		return "sustainableLives";
 	}
         
     @PostMapping("/sustainableGenerViolence")
@@ -80,4 +132,6 @@ public class viewsController {
 	public String sustainableDiversity(Model theModel) {
 		return "sustainableDiversity"; 
         }
+    //--Views models live sustainables--//
+    
 }

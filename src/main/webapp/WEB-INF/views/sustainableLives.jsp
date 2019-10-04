@@ -51,22 +51,22 @@
 						</tr>
 
 						<!-- loop over and print our customers -->
-						<c:forEach var="tempCustomer" items="${customers}">
+						<c:forEach var="tempModelslive" items="${modelslive}">
 
 							<!-- construct an "update" link with customer id -->
-							<c:url var="updateLink" value="/customer/updateForm">
-								<c:param name="customerId" value="${tempCustomer.id}" />
+							<c:url var="updateLink" value="/models/sustainableLives-Form">
+								<c:param name="modelsliveId" value="${tempModelslive.id}" />
 							</c:url>
+                                                        
 
 							<!-- construct an "delete" link with customer id -->
-							<c:url var="deleteLink" value="/customer/delete">
-								<c:param name="customerId" value="${tempCustomer.id}" />
+							<c:url var="deleteLink" value="/models/delete">
+								<c:param name="modelsliveId" value="${tempModelslive.id}" />
 							</c:url>
 
 							<tr>
-								<td>${tempCustomer.firstName}</td>
-								<td>${tempCustomer.lastName}</td>
-								<td>${tempCustomer.email}</td>
+								<td>${tempModelslive.nombre}</td>
+                                                                <td>${tempModelslive.descripcion}</td>
 
 								<td>
 									<!-- display the update link --> <a href="${updateLink}">Actualizar</a>
@@ -77,6 +77,7 @@
 							</tr>
 
 						</c:forEach>
+                                                        
 
 					</table>
                                     <input type="button" value="Agregar"
