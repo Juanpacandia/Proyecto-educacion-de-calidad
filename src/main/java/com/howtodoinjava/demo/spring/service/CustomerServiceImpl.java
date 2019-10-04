@@ -39,30 +39,26 @@ public class CustomerServiceImpl implements CustomerService {
 	public void deleteCustomer(int theId) {
 		customerDAO.deleteCustomer(theId);
 	}
-        
-        @Override
-	@Transactional
-	public List<Modelslive> getModelslives() {
-		return customerDAO.getModelslives();
-	}
 
-	@Override
-	@Transactional
-	public void saveModelslive(Modelslive theModelslive) {
-		customerDAO.saveModelslive(theModelslive);
-	}
+    @Override
+    public List<Modelslive> getModelslives() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
-	@Override
-	@Transactional
-	public Modelslive getModelslive(int theId) {
-		return customerDAO.getModelslive(theId);
-	}
+    @Override
+    public void saveModelslive(Modelslive theModelslive) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
-	@Override
-	@Transactional
-	public void deleteModelslive(int theId) {
-		customerDAO.deleteModelslive(theId);
-	}
+    @Override
+    public Modelslive getModelslive(int theId) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void deleteModelslive(int theId) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
 
 
