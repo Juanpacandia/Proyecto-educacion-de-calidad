@@ -82,5 +82,46 @@
 			</div>
 	</div>
         <!--//header -->
+        <!--//descripcion -->
+        <center>
+        <div>           
+                <h3>¿QUÉ SON LOS OBJETIVOS DE DESARROLLO SOSTENIBLE?</h3><br><br>
+        </div>
+        <div>
+            <p> 
+                <img src="../resources/imagenes/ODS.jpg" align="right"><br><br>Los Objetivos de Desarrollo Sostenible, también conocidos como Objetivos Mundiales, se<br>
+                        adoptaron por todos los Estados Miembros en 2015 como un llamado universal para poner<br> 
+                        fin a la pobreza, proteger el planeta y garantizar que todas las personas gocen de paz y<br>
+                        prosperidad para 2030.<br><br>
+                        Los 17 ODS están integrados, ya que reconocen que las intervenciones en un área afectarán<br>
+                        los resultados de otras y que el desarrollo debe equilibrar la sostenibilidad medio ambiental,<br>
+                        económica y social.<br><br>
+                        Siguiendo la promesa de no dejar a nadie atrás, los países se han comprometido a acelerar<br>
+                        el progreso para aquellos más atrasados. Es por esto que los ODS han sido diseñados para<br>
+                        traer al mundo varios ?ceros? que cambien la vida, lo que incluye pobreza cero, hambre<br>
+                        cero, SIDA cero y discriminación cero contra las mujeres y niñas.<br><br>
+                        Todo el mundo es necesario para alcanzar estos objetivos ambiciosos. Se necesita la<br>
+                        creatividad, el conocimiento, la tecnología y los recursos financieros de toda la sociedad<br>
+                        para conseguir los ODS en cada contexto.<br><br><br><br>
+            </p>
+        </div>
+        <div>
+            <h3>¿CUÁL ES LA FUNCIÓN DEL PNUD?</h3><br><br>
+            <p>
+                <img src="../resources/imagenes/PNUD1.PNG" align="left">
+                Como principal organismo de las Naciones Unidas para el desarrollo, el PNUD tiene una<br>
+                posición única para ayudar a implementar los Objetivos a través de nuestro trabajo en unos<br>
+                170 países y territorios.<br><br>
+                Apoyamos a países a conseguir los ODS con soluciones integradas. Los desafíos complejos<br>
+                actuales, que van desde detener el avance de las enfermedades hasta prevenir el conflicto,<br>
+                no se pueden tratar de forma eficiente aisladamente. Para el PNUD esto significa centrarse<br>
+                en sistemas, causas profundas y conexiones entre desafíos, no solo sectores temáticos,<br>
+                para crear soluciones que respondan a las realidades diarias de las personas.<br><br>
+                Nuestra trayectoria trabajando con los Objetivos nos ha dotado de una experiencia valiosa<br>
+                y probados conocimientos normativos que nos permitirán a todos alcanzar las metas<br>
+                establecidas en los ODS de aquí a 2030. Sin embargo, no podemos hacerlo solos,<br>              
+            </p>
+        </div>
+        </center>
     </body>
 </html>

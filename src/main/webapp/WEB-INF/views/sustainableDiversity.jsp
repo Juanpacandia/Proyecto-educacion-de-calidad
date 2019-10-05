@@ -59,7 +59,7 @@
 								<li><a href="/proyecto_AS/" class="hvr-sweep-to-bottom">Inicio</a></li>
 								<li><a href="/proyecto_AS/views/ODS" class="hvr-sweep-to-bottom">ODS</a></li>
 								<li><a href="/proyecto_AS/views/forum" class="hvr-sweep-to-bottom">Foro</a></li>
-								<li><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Temas<span class="caret"></span></a>
+								<li class="active"><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Temas<span class="caret"></span></a>
 									<ul class="dropdown-menu">
 										<li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/views/sustainableDevelopment">¿Que es el desarollo sostenible?</a></li>
 										<li><a class="hvr-sweep-to-bottom" href="/proyecto_AS/views/sustainableLives">Modelos de vida sostenibles</a></li>
@@ -73,7 +73,7 @@
 								<li><a href="/proyecto_AS/views/organizations" class="hvr-sweep-to-bottom">Organizaciones</a></li>
                                         
 								<li><a href="/proyecto_AS/views/reports" class="hvr-sweep-to-bottom">¿Necesitas ayuda?</a></li>
-                                                                <li class="active"><a href="/proyecto_AS/customer/list">Consultar usuario</a></li>
+                                                                <li><a href="/proyecto_AS/customer/list" class="hvr-sweep-to-bottom">Consultar usuario</a></li>
 							</ul>
 						</nav>
 					</div>
