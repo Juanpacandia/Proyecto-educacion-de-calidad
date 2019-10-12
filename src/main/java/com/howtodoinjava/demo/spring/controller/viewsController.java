@@ -72,16 +72,6 @@ public class viewsController {
 	public String sustainable(Model theModel) {
 		return "sustainableDevelopment";
 	}
-    
-    @PostMapping("/sustainableLives")
-	public String sustainableLives(@ModelAttribute("customer") Customer theCustomer) {
-		return "redirect:/views/sustainableLives";
-	}
-        
-    @GetMapping("/sustainableLives")
-	public String listCustomers(Model theModel) {
-		return "sustainableLives";
-	}
         
     @PostMapping("/sustainableGenerViolence")
 	public String sustainableGenerViolence(@ModelAttribute("customer") Customer theCustomer) {

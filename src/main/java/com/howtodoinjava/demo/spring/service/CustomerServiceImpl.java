@@ -8,7 +8,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.howtodoinjava.demo.spring.dao.CustomerDAO;
 import com.howtodoinjava.demo.spring.model.Customer;
-import com.howtodoinjava.demo.spring.model.Modelslive;
 
 @Service
 public class CustomerServiceImpl implements CustomerService {
@@ -39,26 +38,6 @@ public class CustomerServiceImpl implements CustomerService {
 	public void deleteCustomer(int theId) {
 		customerDAO.deleteCustomer(theId);
 	}
-
-    @Override
-    public List<Modelslive> getModelslives() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void saveModelslive(Modelslive theModelslive) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public Modelslive getModelslive(int theId) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void deleteModelslive(int theId) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
 }
 
 

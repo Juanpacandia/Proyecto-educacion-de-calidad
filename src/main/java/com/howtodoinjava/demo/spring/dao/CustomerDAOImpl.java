@@ -51,35 +51,4 @@ public class CustomerDAOImpl implements CustomerDAO {
 		Customer theCustomer = currentSession.get(Customer.class, theId);
 		return theCustomer;
 	}
-        
-        @Override
-	public List<Modelslive> getModelslives(){
-		Session session = sessionFactory.getCurrentSession();
-		CriteriaBuilder cb = session.getCriteriaBuilder();
-		CriteriaQuery<Modelslive> cq = cb.createQuery(Modelslive.class);
-		Root<Modelslive> root = cq.from(Modelslive.class);
-		cq.select(root);
-		Query query = session.createQuery(cq);
-		return query.getResultList();
-	}
-
-	@Override
-	public void deleteModelslive(int id) {
-		Session session = sessionFactory.getCurrentSession();
-		Modelslive book = session.byId(Modelslive.class).load(id);
-		session.delete(book);
-	}
-
-	@Override
-	public void saveModelslive(Modelslive theModelslive) {
-		Session currentSession = sessionFactory.getCurrentSession();
-		currentSession.saveOrUpdate(theModelslive);
-	}
-
-	@Override
-	public Modelslive getModelslive(int theId) {
-		Session currentSession = sessionFactory.getCurrentSession();
-		Modelslive theModelslive = currentSession.get(Modelslive.class, theId);
-		return theModelslive;
-	}
 }

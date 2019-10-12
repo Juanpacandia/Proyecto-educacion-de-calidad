@@ -1,3 +1,8 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package com.howtodoinjava.demo.spring.controller;
 
 import java.util.List;
@@ -12,47 +17,43 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.howtodoinjava.demo.spring.model.Modelslive;
-import com.howtodoinjava.demo.spring.service.CustomerService;
-
+import com.howtodoinjava.demo.spring.service.ModelsliveService;
 
 @Controller
 @RequestMapping("/models")
 public class ModelsLiveController {
     
     @Autowired
-	private CustomerService customerService;
-	
-        @GetMapping("/sustainableLives")
-	public String listCustomers(Model theModel) {
-		List<Modelslive> theModelslive = customerService.getModelslives();
-		theModel.addAttribute("Modelslive", theModelslive);
+	private ModelsliveService modelsliveService;
+    
+    @GetMapping("/modelslist")
+	public String listModelslives(Model theModel) {
+		List<Modelslive> theModelslives = modelsliveService.getModelslives();
+		theModel.addAttribute("modelslives", theModelslives);
 		return "sustainableLives";
 	}
-        
-	@GetMapping("/sustainableLives-Form")
+    @GetMapping("/modelsForm")
 	public String showFormForAdd(Model theModel) {
 		Modelslive theModelslive = new Modelslive();
 		theModel.addAttribute("modelslive", theModelslive);
 		return "sustainableLives-form";
 	}
-	
-	@PostMapping("/saveModelslive")
+    @PostMapping("/saveModelslive")
 	public String saveModelslive(@ModelAttribute("modelslive") Modelslive theModelslive) {
-		customerService.saveModelslive(theModelslive);	
-		return "redirect:/models/modelslive";
+		modelsliveService.saveModelslive(theModelslive);	
+		return "redirect:/models/list";
 	}
-	
-	@GetMapping("/sustainableLives-update")
-	public String showFormForUpdate(@RequestParam("modelsliveId") int theId,
+    	@GetMapping("/updateForm")
+	public String showFormForUpdate(@RequestParam("modelsliveId") int theNumber,
 									Model theModel) {
-		Modelslive theModelslive = customerService.getModelslive(theId);	
+		Modelslive theModelslive = modelsliveService.getModelslive(theNumber);	
 		theModel.addAttribute("modelslive", theModelslive);
-		return "sustainableLives-update";
+		return "sustainableLives-form";
 	}
 	
 	@GetMapping("/delete")
-	public String deleteModelslive(@RequestParam("modelsliveId") int theId) {
-		customerService.deleteModelslive(theId);
-		return "redirect:/models/modelslive";
-	}        
+	public String deleteModelslive(@RequestParam("customerId") int theNumber) {
+		modelsliveService.deleteModelslive(theNumber);
+		return "redirect:/models/list";
+	}   
 }

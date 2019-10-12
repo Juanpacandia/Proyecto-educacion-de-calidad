@@ -15,12 +15,6 @@ public interface CustomerService {
 
 	public void deleteCustomer(int theId);
         
-        public List<Modelslive> getModelslives();
 
-	public void saveModelslive(Modelslive theModelslive);
-
-	public Modelslive getModelslive(int theId);
-
-	public void deleteModelslive(int theId);
 	
 }

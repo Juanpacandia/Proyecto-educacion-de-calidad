@@ -56,6 +56,17 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
+  <interface id="24" language="java" name="com.howtodoinjava.demo.spring.service.ModelsliveService" 
+    project="spring5-mvc-hibernate-example" 
+    file="/spring5-mvc-hibernate-example/src/main/java/com/howtodoinjava/demo/spring/service/ModelsliveService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="397" y="244"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface> 
   <class id="6" language="java" name="com.howtodoinjava.demo.spring.service.CustomerServiceImp" 
     project="spring5-mvc-hibernate-example" 
     file="/spring5-mvc-hibernate-example/src/main/java/com/howtodoinjava/demo/spring/service/CustomerServiceImp.java" 
@@ -67,6 +78,18 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
+  
+  <class id="23" language="java" name="com.howtodoinjava.demo.spring.service.ModelsliveServiceImp" 
+    project="spring5-mvc-hibernate-example" 
+    file="/spring5-mvc-hibernate-example/src/main/java/com/howtodoinjava/demo/spring/service/ModelsliveServiceImp.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="402" y="391"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class> 
   <class id="7" language="java" name="com.howtodoinjava.demo.spring.model.Customer" project="spring5-mvc-hibernate-example" 
     file="/spring5-mvc-hibernate-example/src/main/java/com/howtodoinjava/demo/spring/model/Customer.java" binary="false" 
     corner="BOTTOM_RIGHT">    
@@ -121,7 +144,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class> 
-  <class id="entityManagerFactory" language="java" name="com.howtodoinjava.demo.spring.model.Modelslive" project="spring5-mvc-hibernate-example" 
+  <class id="20" language="java" name="com.howtodoinjava.demo.spring.model.Modelslive" project="spring5-mvc-hibernate-example" 
     file="/spring5-mvc-hibernate-example/src/main/java/com/howtodoinjava/demo/spring/model/Modelslive.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="243" width="211" x="743" y="172"/>    
@@ -131,6 +154,18 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>
+    <class id="21" language="java" name="com.howtodoinjava.demo.spring.dao.ModelsliveDAOImpl" 
+    project="spring5-mvc-hibernate-example" 
+    file="/spring5-mvc-hibernate-example/src/main/java/com/howtodoinjava/demo/spring/dao/ModelsliveDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="616" y="397"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class> 
+  
   <association id="10">    
     <end type="SOURCE" refId="4" navigable="false">      
       <attribute id="11" name="CustomerService"/>      
@@ -155,6 +190,14 @@
     <end type="TARGET" refId="8" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <association id="22">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="16" name="ModelsliveDao"/>      
+      <multiplicity id="17" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association> 
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
