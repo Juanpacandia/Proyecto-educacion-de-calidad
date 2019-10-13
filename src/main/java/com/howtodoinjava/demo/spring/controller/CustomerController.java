@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.howtodoinjava.demo.spring.model.Customer;
-import com.howtodoinjava.demo.spring.model.Modelslive;
 import com.howtodoinjava.demo.spring.service.CustomerService;
 
 

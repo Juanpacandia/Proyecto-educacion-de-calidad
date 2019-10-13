@@ -41,7 +41,7 @@ public class ModelsLiveController {
     @PostMapping("/saveModelslive")
 	public String saveModelslive(@ModelAttribute("modelslive") Modelslive theModelslive) {
 		modelsliveService.saveModelslive(theModelslive);	
-		return "redirect:/models/list";
+		return "redirect:/models/modelslist";
 	}
     	@GetMapping("/updateForm")
 	public String showFormForUpdate(@RequestParam("modelsliveId") int theNumber,
@@ -54,6 +54,6 @@ public class ModelsLiveController {
 	@GetMapping("/delete")
 	public String deleteModelslive(@RequestParam("customerId") int theNumber) {
 		modelsliveService.deleteModelslive(theNumber);
-		return "redirect:/models/list";
+		return "redirect:/models/modelslist";
 	}   
 }

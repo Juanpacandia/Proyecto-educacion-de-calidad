@@ -11,6 +11,7 @@ import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import com.howtodoinjava.demo.spring.model.Customer;
+import com.howtodoinjava.demo.spring.model.Modelslive;
 
 @Configuration
 @EnableTransactionManagement
@@ -24,7 +25,7 @@ public class HibernateConfig {
 	public LocalSessionFactoryBean getSessionFactory() {
 		LocalSessionFactoryBean factoryBean = new LocalSessionFactoryBean();
 		factoryBean.setConfigLocation(context.getResource("classpath:hibernate.cfg.xml"));
-		factoryBean.setAnnotatedClasses(Customer.class);
+		factoryBean.setAnnotatedClasses(Customer.class,Modelslive.class);
 		return factoryBean;
 	}
 
