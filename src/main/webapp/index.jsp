@@ -339,7 +339,7 @@
 	<!-- footer -->
 	<div class="footer">
 		<div class="copyright">
-			<p>© 2019 Desarrollo Sostenible. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+			<p>© 2019 Desarrollo Sostenible. All rights reserved</p>
 		</div>
 	</div>
 	<!-- //footer -->

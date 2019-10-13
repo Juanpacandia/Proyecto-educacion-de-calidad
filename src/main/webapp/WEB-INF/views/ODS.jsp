@@ -284,6 +284,10 @@
                         
 		</div>
 	</div>
-        
+        <div class="footer">
+		<div class="copyright">
+                    <p>© 2019 Desarrollo Sostenible. All rights reserved</p>
+		</div>
+	</div>
     </body>
 </html>
