@@ -113,8 +113,8 @@
 				<div class="panel-heading">
 					<div class="panel-title">Modelos de vida sostenibles</div>
 				</div>
-				<div class="panel-body">
-					<table class="table table-striped table-bordered">
+				<div>
+					<table class="table table-bordered">
 						<tr>
 							<th>Tema</th>
 							<th>Descripción</th>
@@ -142,8 +142,7 @@
 
 								<td>
 									<!-- display the update link --> <a href="${updateLink}">Actualizar</a>
-									| <a href="${deleteLink}"
-									onclick="if (!(confirm('Estas seguro que quieres eliminar el usuario?'))) return false">Eliminar</a>
+									
 								</td>
 
 							</tr>
