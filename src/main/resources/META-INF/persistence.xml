@@ -7,7 +7,6 @@
     <class>com.howtodoinjava.demo.spring.model.Modelslive</class>
     <class>com.howtodoinjava.demo.spring.controller.ModelsLiveController</class>
     <class>com.howtodoinjava.demo.spring.config.ModelsConfig</class>
-    <class>com.howtodoinjava.demo.spring.model.Forummodelslive</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/prueba?zeroDateTimeBehavior=convertToNull"/>

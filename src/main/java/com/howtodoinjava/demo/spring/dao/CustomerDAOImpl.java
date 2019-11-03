@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.howtodoinjava.demo.spring.model.Customer;
+import com.howtodoinjava.demo.spring.model.Modelslive;
 
 @Repository
 public class CustomerDAOImpl implements CustomerDAO {

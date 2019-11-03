@@ -82,58 +82,5 @@
 			</div>
 	</div>
         <!--//header -->
-        <div class="container">
-		<div class="col-md-offset-1 col-md-10">
-			<hr />
-
-			
-			<div class="panel panel-info">
-				<div class="table table-striped table-bordered">
-					<div class="panel-title">Temas de interes</div>
-				</div>
-				<div class="panel-body">
-					<table class="table table-striped table-bordered">
-						<tr>
-							<th>Modelos de vida sostenibles</th>
-						</tr>
-                                                <tr>
-							<th>Toda la informacion correspondiente a modelos de vida sostenibles</th>
-						</tr>
-                                                <tr>
-							<th>Violencia de genero</th>
-						</tr>
-                                                <tr>
-							<th>Toda la informacion correspondiente a violencia de genero</th>
-						</tr>
-                                                <tr>
-							<th>Derechos humanos</th>
-						</tr>
-                                                <tr>
-							<th>Yoda la informacion correspondiente a derechos humanos</th>
-						</tr>
-                                                <tr>
-							<th>Cultura de paz</th>
-						</tr>
-                                                <tr>
-							<th>Yoda la informacion correspondiente a cultura de paz</th>
-						</tr>
-                                                <tr>
-							<th>Cuidadania mundial</th>
-						</tr>
-                                                <tr>
-							<th>Yoda la informacion correspondiente a ciudadania mundial</th>
-						</tr>
-                                                <tr>
-							<th>Ciudadania mundial</th>
-						</tr>
-                                                <tr>
-							<th>Yoda la informacion correspondiente a diversidad cultural</th>
-						</tr>
-                                                
-				</div>
-			</div>
-		</div>
-
-	</div>
     </body>
 </html>

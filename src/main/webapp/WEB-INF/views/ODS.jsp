@@ -105,10 +105,8 @@
                         para conseguir los ODS en cada contexto.<br><br><br><br>
             </p>
         </div>
-            					
-
         <div>
-            <h3>¿CUÁL ES LA FUNCIÓN DEL PNUD? </h3><br><br>
+            <h3>¿CUÁL ES LA FUNCIÓN DEL PNUD?</h3><br><br>
             <p>
                 <img src="../resources/imagenes/PNUD1.PNG" align="left">
                 Como principal organismo de las Naciones Unidas para el desarrollo, el PNUD tiene una<br>
