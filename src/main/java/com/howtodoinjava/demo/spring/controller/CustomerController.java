@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.howtodoinjava.demo.spring.model.Customer;
 import com.howtodoinjava.demo.spring.service.CustomerService;
 
-
 @Controller
 @RequestMapping("/customer")
 public class CustomerController {

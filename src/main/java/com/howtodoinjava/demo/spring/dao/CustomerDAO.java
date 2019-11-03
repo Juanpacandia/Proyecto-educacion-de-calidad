@@ -4,7 +4,6 @@ import java.util.List;
 
 import com.howtodoinjava.demo.spring.model.Customer;
 
-
 public interface CustomerDAO {
 
 	public List<Customer> getCustomers();
