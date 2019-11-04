@@ -44,7 +44,8 @@
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
-  </class>  
+  </class>
+    
   <interface id="5" language="java" name="com.howtodoinjava.demo.spring.service.CustomerService" 
     project="spring5-mvc-hibernate-example" 
     file="/spring5-mvc-hibernate-example/src/main/java/com/howtodoinjava/demo/spring/service/CustomerService.java" 
@@ -56,6 +57,17 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
+    <interface id="5" language="java" name="com.howtodoinjava.demo.spring.service.ForummodelsliveService" 
+    project="spring5-mvc-hibernate-example" 
+    file="/spring5-mvc-hibernate-example/src/main/java/com/howtodoinjava/demo/spring/service/ForummodelsliveService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="397" y="244"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>
   <interface id="24" language="java" name="com.howtodoinjava.demo.spring.service.ModelsliveService" 
     project="spring5-mvc-hibernate-example" 
     file="/spring5-mvc-hibernate-example/src/main/java/com/howtodoinjava/demo/spring/service/ModelsliveService.java" 
@@ -70,6 +82,17 @@
   <class id="6" language="java" name="com.howtodoinjava.demo.spring.service.CustomerServiceImp" 
     project="spring5-mvc-hibernate-example" 
     file="/spring5-mvc-hibernate-example/src/main/java/com/howtodoinjava/demo/spring/service/CustomerServiceImp.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="402" y="391"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+    <class id="6" language="java" name="com.howtodoinjava.demo.spring.service.ForummodelsliveServiceImp" 
+    project="spring5-mvc-hibernate-example" 
+    file="/spring5-mvc-hibernate-example/src/main/java/com/howtodoinjava/demo/spring/service/ForummodelsliveServiceImp.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="402" y="391"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -99,6 +122,17 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
+    <interface id="8" language="java" name="com.howtodoinjava.demo.spring.dao.ForummodelsliveDao" 
+    project="spring5-mvc-hibernate-example" 
+    file="/spring5-mvc-hibernate-example/src/main/java/com/howtodoinjava/demo/spring/dao/ForummodelsliveDao.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="615" y="243"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface> 
   <class id="9" language="java" name="com.howtodoinjava.demo.spring.dao.CustomerDaoImp" 
     project="spring5-mvc-hibernate-example" 
     file="/spring5-mvc-hibernate-example/src/main/java/com/howtodoinjava/demo/spring/dao/CustomerDaoImp.java" binary="false" 
@@ -110,9 +144,31 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
+  <class id="9" language="java" name="com.howtodoinjava.demo.spring.dao.ForummodelsliveDaoImp" 
+    project="spring5-mvc-hibernate-example" 
+    file="/spring5-mvc-hibernate-example/src/main/java/com/howtodoinjava/demo/spring/dao/ForummodelsliveDaoImp.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="616" y="397"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class> 
   <class id="18" language="java" name="com.howtodoinjava.demo.spring.controller.ModelsLiveController" 
     project="spring5-mvc-hibernate-example" 
     file="/spring5-mvc-hibernate-example/src/main/java/com/howtodoinjava/demo/spring/controller/ModelsLiveController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="124" y="244"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>
+    <class id="18" language="java" name="com.howtodoinjava.demo.spring.controller.ForoController" 
+    project="spring5-mvc-hibernate-example" 
+    file="/spring5-mvc-hibernate-example/src/main/java/com/howtodoinjava/demo/spring/controller/ForoController.java" 
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="124" y="244"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -170,6 +226,14 @@
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>
+  <association id="10">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="11" name="ForummodelsliveService"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
   <realization id="13">    
     <end type="SOURCE" refId="9"/>    
     <end type="TARGET" refId="8"/>  
@@ -189,6 +253,14 @@
   <association id="22">    
     <end type="SOURCE" refId="6" navigable="false">      
       <attribute id="16" name="ModelsliveDao"/>      
+      <multiplicity id="17" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>
+  <association id="22">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="16" name="ForummodelsliveDao"/>      
       <multiplicity id="17" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="8" navigable="true"/>    
